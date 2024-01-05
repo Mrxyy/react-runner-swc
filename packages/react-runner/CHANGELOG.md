@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/nihgwu/react-runner/compare/react-runner@1.0.3...react-runner@1.1.0) (2024-01-05)
+
+
+### Bug Fixes
+
+* fix swc demo ([3685f23](https://github.com/nihgwu/react-runner/commit/3685f2353627f50110f3ef2b887d876987bbcf3e))
+* remove print code ([cdefa9c](https://github.com/nihgwu/react-runner/commit/cdefa9c649f86946258191d51982bfcbb91de35a))
+
+
+### Features
+
+* feat with swc ([5f3584f](https://github.com/nihgwu/react-runner/commit/5f3584fcf55d81fdccefee63e262aefb9fc9e5cc))
+
+
+
+
+
 ## [1.0.3](https://github.com/nihgwu/react-runner/compare/react-runner@1.0.2...react-runner@1.0.3) (2022-04-15)
 
 **Note:** Version bump only for package react-runner
