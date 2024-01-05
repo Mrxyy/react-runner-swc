@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react'
 import styled from 'styled-components'
-import { importCode, Runner, Scope } from 'react-runner'
+import { importCode, Runner, Scope } from 'react-runner-swc'
 
 import {
   Container,

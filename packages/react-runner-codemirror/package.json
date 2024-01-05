@@ -2,10 +2,10 @@
   "name": "react-runner-codemirror",
   "version": "0.3.2",
   "description": "CodeMirror6 for react code editing",
-  "homepage": "https://react-runner.vercel.app",
+  "homepage": "https://react-runner-swc.vercel.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nihgwu/react-runner.git"
+    "url": "https://github.com/Mrxyy/react-runner-swc.git"
   },
   "author": "Neo Nie <nihgwu@live.com>",
   "license": "MIT",

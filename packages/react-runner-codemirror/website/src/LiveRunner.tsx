@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react'
-import { Runner, importCode, Scope } from 'react-runner'
+import { Runner, importCode, Scope } from 'react-runner-swc'
 import { ShadowRoot } from './ShadowRoot'
 
 const withFiles = (scope: Scope, files: Record<string, string>) => {

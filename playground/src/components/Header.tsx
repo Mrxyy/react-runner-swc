@@ -31,7 +31,7 @@ export const Header = () => {
       </button>
       <a
         className={clsx(styles.IconButton, styles.Link)}
-        href="https://github.com/nihgwu/react-runner"
+        href="https://github.com/Mrxyy/react-runner"
         title="Github"
       >
         <GitHubLogoIcon />

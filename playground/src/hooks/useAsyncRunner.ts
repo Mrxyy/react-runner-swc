@@ -6,7 +6,12 @@ import React, {
   ReactElement,
 } from 'react'
 import 'construct-style-sheets-polyfill'
-import { Runner, UseRunnerProps, UseRunnerReturn, setDrive } from 'react-runner'
+import {
+  Runner,
+  UseRunnerProps,
+  UseRunnerReturn,
+  setDrive,
+} from 'react-runner-swc'
 import wasmUrl from '@swc/wasm-web/wasm-web_bg.wasm?url'
 
 import { withFiles } from '../utils/withFiles'

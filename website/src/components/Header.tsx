@@ -131,7 +131,7 @@ export const Header = ({ isExample }: { isExample: boolean }) => {
       <ThemeToggle />
       <IconButton
         as={Link}
-        href="https://github.com/nihgwu/react-runner"
+        href="https://github.com/Mrxyy/react-runner"
         title="Github"
       >
         <svg

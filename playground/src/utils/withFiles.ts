@@ -1,4 +1,4 @@
-import { importCode, Scope } from 'react-runner'
+import { importCode, Scope } from 'react-runner-swc'
 
 import { splitFileName } from './filename'
 

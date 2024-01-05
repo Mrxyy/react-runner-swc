@@ -2,10 +2,10 @@
   "name": "react-live-runner",
   "version": "1.0.6",
   "description": "Run your React code on the go",
-  "homepage": "https://react-runner.vercel.app",
+  "homepage": "https://react-runner-swc.vercel.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nihgwu/react-runner.git"
+    "url": "https://github.com/Mrxyy/react-runner-swc.git"
   },
   "author": "Neo Nie <nihgwu@live.com>",
   "license": "MIT",
@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "prism-react-renderer": "^1.2.1",
-    "react-runner": "^1.1.0",
+    "react-runner-swc": "^1.1.0",
     "react-simple-code-editor": "^0.13.1"
   },
   "peerDependencies": {

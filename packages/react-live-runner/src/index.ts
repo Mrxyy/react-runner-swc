@@ -1,4 +1,4 @@
-export * from 'react-runner'
+export * from 'react-runner-swc'
 
 export * from './useLiveRunner'
 export * from './CodeEditor'

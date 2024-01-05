@@ -2,7 +2,7 @@
 
 https://play-react.vercel.app/
 
-A React playground powered by [React Runner](https://github.com/nihgwu/react-runner).
+A React playground powered by [React Runner](https://github.com/Mrxyy/react-runner).
 
 - No iframe
 - Dynamic imports

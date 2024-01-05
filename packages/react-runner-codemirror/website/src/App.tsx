@@ -19,14 +19,14 @@ function App() {
   return (
     <div className="App">
       <h1>
-        <a href="https://github.com/nihgwu/react-runner/tree/master/packages/react-runner-codemirror">
+        <a href="https://github.com/Mrxyy/react-runner/tree/master/packages/react-runner-codemirror">
           react-runner-codemirror
         </a>
       </h1>
       <div>React wrapper of CodeMirror6 for React code editing</div>
       <div>
         Live preview powered by
-        <a href="https://github.com/nihgwu/react-runner">React Runner</a>
+        <a href="https://github.com/Mrxyy/react-runner">React Runner</a>
       </div>
       <LiveRunner files={files} />
       <div className="Tabs">

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { useRunner, UseRunnerProps, UseRunnerReturn } from 'react-runner'
+import { useRunner, UseRunnerProps, UseRunnerReturn } from 'react-runner-swc'
 
 export type UseLiveRunnerProps = Omit<UseRunnerProps, 'code'> & {
   /** initial code for the live runner */

@@ -36,7 +36,7 @@ function App() {
         <p>
           <a
             className="App-link"
-            href="https://react-runner.vercel.app"
+            href="https://react-runner-swc.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
           >

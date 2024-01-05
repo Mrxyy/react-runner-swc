@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styled from 'styled-components'
-import { useRunner, Scope } from 'react-runner'
+import { useRunner, Scope } from 'react-runner-swc'
 import {
   LiveProvider,
   LiveEditor,

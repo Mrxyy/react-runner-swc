@@ -1,6 +1,6 @@
 # React Runner
 
-Run your React code on the go [https://react-runner.vercel.app](https://react-runner.vercel.app)
+Run your React code on the go [https://react-runner-swc.vercel.app](https://react-runner-swc.vercel.app)
 
 ## Features
 
@@ -10,10 +10,10 @@ Run your React code on the go [https://react-runner.vercel.app](https://react-ru
 - Composing components with `render` or `export default`
 - Server Side Rendering
 - `import` statement
-- [Multi files](https://react-runner.vercel.app/#multi-files)
+- [Multi files](https://react-runner-swc.vercel.app/#multi-files)
 - Typescript
 
-With React Runner, you can write your live code in the real world way, check out Hacker News [in react-runner](https://react-runner.vercel.app/#hacker-news) vs [in real world](https://react-runner.vercel.app/examples/hacker-news), with the same code
+With React Runner, you can write your live code in the real world way, check out Hacker News [in react-runner](https://react-runner-swc.vercel.app/#hacker-news) vs [in real world](https://react-runner-swc.vercel.app/examples/hacker-news), with the same code
 
 You can even build your own async runner to support dynamic imports, try [Play React](https://play-react.vercel.app)
 
@@ -35,7 +35,7 @@ npm install --save react-runner
 ## Usage
 
 ```jsx
-import { Runner } from 'react-runner'
+import { Runner } from 'react-runner-swc'
 
 const element = <Runner code={code} scope={scope} onRendered={handleRendered} />
 ```
@@ -43,7 +43,7 @@ const element = <Runner code={code} scope={scope} onRendered={handleRendered} />
 or use hook `useRunner` with cache support
 
 ```jsx
-import { useRunner } from 'react-runner'
+import { useRunner } from 'react-runner-swc'
 
 const { element, error } = useRunner({ code, scope })
 ```
@@ -51,7 +51,7 @@ const { element, error } = useRunner({ code, scope })
 ### `import` statement and multi files
 
 ```js
-import { importCode } from 'react-runner'
+import { importCode } from 'react-runner-swc'
 import * as YourPkg from 'your-pkg'
 
 const baseScope = {
@@ -148,7 +148,7 @@ or use `react-runner` directly
 
 ```jsx
 import { useState, useEffect } from 'react'
-import { useRunner } from 'react-runner'
+import { useRunner } from 'react-runner-swc'
 
 const [code, onChange] = useState(initialCode)
 const { element, error } = useRunner({ code, scope })
@@ -166,7 +166,7 @@ useEffect(() => {
 ...
 ```
 
-Check the real world usage here https://github.com/nihgwu/react-runner/blob/master/website/src/components/LiveRunner.tsx
+Check the real world usage here https://github.com/Mrxyy/react-runner/blob/master/website/src/components/LiveRunner.tsx
 
 ## License
 
