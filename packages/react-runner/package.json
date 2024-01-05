@@ -1,6 +1,6 @@
 {
   "name": "react-runner-swc",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Run your React code on the go",
   "homepage": "https://react-runner-swc.vercel.app",
   "repository": {
