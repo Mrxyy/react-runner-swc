@@ -9,7 +9,7 @@ import {
   CodeEditor,
   useLiveRunner,
   Language,
-} from 'react-live-runner'
+} from 'react-live-runner-swc'
 import { CodeMirror as CM } from 'react-runner-codemirror'
 
 export const Container = styled.div`

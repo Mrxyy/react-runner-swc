@@ -98,14 +98,14 @@ export default function Demo() {
 - [CodeMirror for React Runner](https://react-runner-codemirror.vercel.app/)
 - [Storybook Addon](https://storybook.js.org/addons/storybook-addon-react-runner/)
 
-## react-live-runner
+## react-live-runner-swc
 
 `react-runner` is inspired by [react-live](https://github.com/FormidableLabs/react-live) heavily,
 I love it, but I love arrow functions for event handlers instead of bind them manually as well as other modern features,
 and I don't want to change my code to be compliant with restrictions, so I created this project,
 use [Sucrase](https://github.com/alangpierce/sucrase) instead of [Bublé](https://github.com/bublejs/buble) to transpile the code.
 
-If you are using `react-live` in your project and want a smooth transition, `react-live-runner` is there for you which provide the identical way to play with, and `react-live-runner` re-exports `react-runner` so you can use everything in `react-runner` by importing `react-live-runner`
+If you are using `react-live` in your project and want a smooth transition, `react-live-runner-swc` is there for you which provide the identical way to play with, and `react-live-runner-swc` re-exports `react-runner` so you can use everything in `react-runner` by importing `react-live-runner-swc`
 
 ```jsx
 import {
@@ -113,7 +113,7 @@ import {
   LiveEditor,
   LiveError,
   LivePreview,
-} from 'react-live-runner'
+} from 'react-live-runner-swc'
 
 ...
 <LiveProvider code={code} scope={scope}>
@@ -127,7 +127,7 @@ import {
 or hooks for better custom rendering
 
 ```jsx
-import { useLiveRunner, CodeEditor } from 'react-live-runner'
+import { useLiveRunner, CodeEditor } from 'react-live-runner-swc'
 
 const { element, error, code, onChange } = useLiveRunner({
   initialCode,

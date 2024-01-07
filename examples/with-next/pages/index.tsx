@@ -6,7 +6,7 @@ import {
   LiveEditor,
   LivePreview,
   LiveError,
-} from 'react-live-runner'
+} from 'react-live-runner-swc'
 import styles from '../styles/Home.module.css'
 
 const example = `

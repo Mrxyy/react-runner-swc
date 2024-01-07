@@ -1,6 +1,6 @@
 import { useEffect, useReducer } from 'react'
 import styled from 'styled-components'
-import { useLiveRunner } from 'react-live-runner'
+import { useLiveRunner } from 'react-live-runner-swc'
 
 import {
   CodeMirror,
@@ -30,6 +30,7 @@ const Container = styled.div`
 
 const Playground = () => {
   const { element, error, code, onChange } = useLiveRunner({ scope })
+  console.log(code)
 
   // reset to clear editing history
   const [editorKey, resetEditor] = useReducer((state: number) => state + 1, 0)

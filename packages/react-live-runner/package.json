@@ -1,5 +1,5 @@
 {
-  "name": "react-live-runner",
+  "name": "react-live-runner-swc",
   "version": "1.0.7",
   "description": "Run your React code on the go",
   "homepage": "https://react-runner-swc.vercel.app",
@@ -68,5 +68,6 @@
         "lines": 100
       }
     }
-  }
+  },
+  "gitHead": "eaa91c4e9c966a472e6d61d93bdfecddba00fd30"
 }

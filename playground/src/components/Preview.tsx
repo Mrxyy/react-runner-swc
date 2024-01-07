@@ -15,10 +15,7 @@ const baseScope = {
     'react-dom': {
       ...ReactDom,
       render: (element: Parameters<typeof ReactDom.render>[0]) =>
-        ReactDom.render(
-          element,
-          document.getElementById('root')
-        ),
+        ReactDom.render(element, document.getElementById('root')),
     },
   },
 }

@@ -3,9 +3,9 @@ import {
   LiveEditor,
   LivePreview,
   LiveError,
-} from 'react-live-runner'
-import logo from './logo.svg';
-import './App.css';
+} from 'react-live-runner-swc'
+import logo from './logo.svg'
+import './App.css'
 
 const example = `
 export default function Demo() {
@@ -42,7 +42,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

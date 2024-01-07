@@ -13,6 +13,10 @@ const config: any = {
       compress: false,
       mangle: false,
     },
+    keepClassNames: true,
+    transform: {
+      react: { development: true },
+    },
   },
   module: {
     type: 'commonjs',
@@ -22,6 +26,8 @@ const config: any = {
 }
 
 export const transform = (code: string) => {
+  // console.log(_transform(code, config).code)
+  console.log(_transform(code, config).code.substring(13))
   return _transform(code, config).code.substring(13) // remove leading `"use strict";`
 }
 

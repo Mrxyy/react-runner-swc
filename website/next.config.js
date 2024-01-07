@@ -14,8 +14,8 @@ module.exports = {
   webpack: (config, options) => {
     config.resolve.alias = {
       ...config.resolve.alias,
-      'react-runner': path.resolve(__dirname, '../packages/react-runner'),
-      'react-live-runner': path.resolve(
+      'react-runner-swc': path.resolve(__dirname, '../packages/react-runner'),
+      'react-live-runner-swc': path.resolve(
         __dirname,
         '../packages/react-live-runner'
       ),

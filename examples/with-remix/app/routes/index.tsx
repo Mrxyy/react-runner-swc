@@ -3,7 +3,7 @@ import {
   LiveEditor,
   LivePreview,
   LiveError,
-} from 'react-live-runner'
+} from 'react-live-runner-swc'
 
 const example = `
 export default function Demo() {
